@@ -8,7 +8,7 @@
 
 import UIKit
 
-class EvaluationsViewController: UIViewController {
+class EvaluationsViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()

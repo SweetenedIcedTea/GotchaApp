@@ -10,17 +10,17 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Menu-->
         <scene sceneID="89N-RX-YHk">
             <objects>
-                <viewController id="uBU-g0-TWB" sceneMemberID="viewController">
+                <viewController id="uBU-g0-TWB" customClass="MenuViewController" customModule="GotchaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A2L-cf-irb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Ypa-vY-oVR"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="zKc-wJ-663"/>
+                    <tabBarItem key="tabBarItem" title="Menu" id="zKc-wJ-663"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KGy-uY-lfW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -47,10 +47,10 @@
             </objects>
             <point key="canvasLocation" x="106" y="-252"/>
         </scene>
-        <!--Item-->
+        <!--Evaluations-->
         <scene sceneID="mbr-EV-zeR">
             <objects>
-                <tableViewController id="xGp-yD-HUw" sceneMemberID="viewController">
+                <tableViewController id="xGp-yD-HUw" customClass="EvaluationsViewController" customModule="GotchaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="pP3-mh-rS8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -70,16 +70,16 @@
                             <outlet property="delegate" destination="xGp-yD-HUw" id="bce-Be-kQg"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="bfr-qV-pKv"/>
+                    <tabBarItem key="tabBarItem" title="Evaluations" id="bfr-qV-pKv"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v8I-SL-m6n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2132" y="507"/>
         </scene>
-        <!--Item-->
+        <!--Games-->
         <scene sceneID="oWL-Os-uIf">
             <objects>
-                <tableViewController id="JEs-5e-N5i" sceneMemberID="viewController">
+                <tableViewController id="JEs-5e-N5i" customClass="GamesViewController" customModule="GotchaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="faN-sQ-nM2">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,32 +99,32 @@
                             <outlet property="delegate" destination="JEs-5e-N5i" id="JgE-kz-J0N"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="ERl-9T-Ekr"/>
+                    <tabBarItem key="tabBarItem" title="Games" id="ERl-9T-Ekr"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Aeq-NB-4Wv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-678" y="507"/>
         </scene>
-        <!--Item-->
+        <!--Camera-->
         <scene sceneID="N83-n7-ZER">
             <objects>
-                <viewController id="y0k-AQ-iBm" sceneMemberID="viewController">
+                <viewController id="y0k-AQ-iBm" customClass="CameraViewController" customModule="GotchaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="d3b-MK-X5o">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="3sN-mV-fAo"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="gD0-Gz-8a0"/>
+                    <tabBarItem key="tabBarItem" title="Camera" id="gD0-Gz-8a0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="duD-LM-oF6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="105" y="507"/>
         </scene>
-        <!--Item-->
+        <!--Shop-->
         <scene sceneID="2u8-3e-SyA">
             <objects>
-                <tableViewController id="sHc-CC-8f4" sceneMemberID="viewController">
+                <tableViewController id="sHc-CC-8f4" customClass="ShopViewController" customModule="GotchaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="o7D-SU-u9B">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -144,7 +144,7 @@
                             <outlet property="delegate" destination="sHc-CC-8f4" id="uPb-zW-qgC"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="fdV-qX-qfE"/>
+                    <tabBarItem key="tabBarItem" title="Shop" id="fdV-qX-qfE"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BLc-cW-23a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
