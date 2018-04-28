@@ -137,10 +137,7 @@
 				87DB4B6A203756AA003622F5 /* Info.plist */,
 				885A1BB02090F5070074ACF6 /* MenuViewController.swift */,
 				885A1BB22090F55C0074ACF6 /* GamesViewController.swift */,
-				885A1BB42090F57D0074ACF6 /* CameraViewController.swift */,
-				8876D6692094F86800D2C436 /* SendViewController.swift */,
-				8876D66B2094FA8700D2C436 /* TargetingView.swift */,
-				8876D66D2094FAAC00D2C436 /* FocusingImageView.swift */,
+				8876D6712095087E00D2C436 /* Camera */,
 				885A1BB62090F59D0074ACF6 /* ShopViewController.swift */,
 				885A1BB82090F5B70074ACF6 /* EvaluationsViewController.swift */,
 			);
@@ -163,6 +160,17 @@
 				87DB4B80203756AB003622F5 /* Info.plist */,
 			);
 			path = GotchaAppUITests;
+			sourceTree = "<group>";
+		};
+		8876D6712095087E00D2C436 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				885A1BB42090F57D0074ACF6 /* CameraViewController.swift */,
+				8876D6692094F86800D2C436 /* SendViewController.swift */,
+				8876D66B2094FA8700D2C436 /* TargetingView.swift */,
+				8876D66D2094FAAC00D2C436 /* FocusingImageView.swift */,
+			);
+			path = Camera;
 			sourceTree = "<group>";
 		};
 		A3A3A9FB1BFDC6C0B8DD6BA0 /* Frameworks */ = {

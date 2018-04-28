@@ -159,21 +159,20 @@ class CameraViewController: UIViewController, UIGestureRecognizerDelegate {
     @IBAction func toggleFlash(_ sender: UIButton) {
         switch sender.title(for: .normal)! {
         case "Flash On":
+            flashButton.setTitle("Flash Off", for: .normal)
+        case "Flash Off":
             if camPosition == .front{
                 presentFlashAlert()
             } else {
-                flashButton.setTitle("Flash Off", for: .normal)
+                flashButton.setTitle("Flash On", for: .normal)
             }
-            
-        case "Flash Off":
-            flashButton.setTitle("Flash On", for: .normal)
         default:
             flashButton.setTitle("Flash Off", for: .normal)
         }
     }
     
     func presentFlashAlert(){
-        let alert = UIAlertController(title: "Sorry", message: "Photo Fun requires Camera usage. Please turn on Camera access in Settings", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Sorry", message: "Flash is not supported with back camera at the moment", preferredStyle: .alert)
         
         let action = UIAlertAction(title: "OK", style: .default, handler: nil)
         
@@ -214,7 +213,10 @@ class CameraViewController: UIViewController, UIGestureRecognizerDelegate {
     @IBAction func flipCamera(_ sender: UIButton) {
         print("flipCamera pressed")
         if camPosition == .back{
-            
+            if flashButton.title(for: .normal) == "Flash On"{
+                presentFlashAlert()
+                flashButton.setTitle("Flash Off", for: .normal)
+            }
             camPosition = .front
         } else {
             camPosition = .back
