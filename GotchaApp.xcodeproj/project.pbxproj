@@ -90,6 +90,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		873313302097726900B1D46E /* GotchaAppBase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GotchaAppBase;
+			sourceTree = "<group>";
+		};
 		87DB4B52203756AA003622F5 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +129,7 @@
 				87DB4B67203756AA003622F5 /* LaunchScreen.storyboard */,
 				87DB4B6A203756AA003622F5 /* Info.plist */,
 				870BD88D2062D124000A730E /* GoogleService-Info.plist */,
+				873313302097726900B1D46E /* GotchaAppBase */,
 			);
 			path = GotchaApp;
 			sourceTree = "<group>";
