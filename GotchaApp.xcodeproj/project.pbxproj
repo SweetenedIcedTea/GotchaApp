@@ -50,12 +50,12 @@
 
 /* Begin PBXFileReference section */
 		7F85621F0A572FFFE43ABF1F /* Pods-GotchaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GotchaApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GotchaApp/Pods-GotchaApp.release.xcconfig"; sourceTree = "<group>"; };
-		873313322097748E00B1D46E /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = GotchaApp/Errors.swift; sourceTree = SOURCE_ROOT; };
-		873313342097749D00B1D46E /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Game.swift; path = GotchaApp/Game.swift; sourceTree = SOURCE_ROOT; };
-		87331336209774AE00B1D46E /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Image.swift; path = GotchaApp/Image.swift; sourceTree = SOURCE_ROOT; };
-		87331338209774BA00B1D46E /* Poll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Poll.swift; path = GotchaApp/Poll.swift; sourceTree = SOURCE_ROOT; };
-		87331339209774BA00B1D46E /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Server.swift; path = GotchaApp/Server.swift; sourceTree = SOURCE_ROOT; };
-		8733133A209774BA00B1D46E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = GotchaApp/Player.swift; sourceTree = SOURCE_ROOT; };
+		873313322097748E00B1D46E /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = GotchaApp/GotchaAppBaseModel/Errors.swift; sourceTree = SOURCE_ROOT; };
+		873313342097749D00B1D46E /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Game.swift; path = GotchaApp/GotchaAppBaseModel/Game.swift; sourceTree = SOURCE_ROOT; };
+		87331336209774AE00B1D46E /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Image.swift; path = GotchaApp/GotchaAppBaseModel/Image.swift; sourceTree = SOURCE_ROOT; };
+		87331338209774BA00B1D46E /* Poll.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Poll.swift; path = GotchaApp/GotchaAppBaseModel/Poll.swift; sourceTree = SOURCE_ROOT; };
+		87331339209774BA00B1D46E /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Server.swift; path = GotchaApp/GotchaAppBaseModel/Server.swift; sourceTree = SOURCE_ROOT; };
+		8733133A209774BA00B1D46E /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = GotchaApp/GotchaAppBaseModel/Player.swift; sourceTree = SOURCE_ROOT; };
 		87DB4B5B203756AA003622F5 /* GotchaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GotchaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		87DB4B5E203756AA003622F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		87DB4B63203756AA003622F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -116,19 +116,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		87331331209773D800B1D46E /* GotchaAppBaseModel */ = {
-			isa = PBXGroup;
-			children = (
-				8733133A209774BA00B1D46E /* Player.swift */,
-				87331338209774BA00B1D46E /* Poll.swift */,
-				87331339209774BA00B1D46E /* Server.swift */,
-				87331336209774AE00B1D46E /* Image.swift */,
-				873313342097749D00B1D46E /* Game.swift */,
-				873313322097748E00B1D46E /* Errors.swift */,
-			);
-			path = GotchaAppBaseModel;
-			sourceTree = "<group>";
-		};
 		87DB4B52203756AA003622F5 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +147,10 @@
 				87DB4B67203756AA003622F5 /* LaunchScreen.storyboard */,
 				885A1BC02093B70E0074ACF6 /* GoogleService-Info.plist */,
 				87DB4B6A203756AA003622F5 /* Info.plist */,
+<<<<<<< HEAD
+=======
+				8869D6A22097766C0032558D /* GotchaAppBaseModel */,
+>>>>>>> f910540ba796b42430ad3b735deb8d1d0e5ba9be
 				885A1BB02090F5070074ACF6 /* MenuViewController.swift */,
 				885A1BB22090F55C0074ACF6 /* GamesViewController.swift */,
 				885A1BB62090F59D0074ACF6 /* ShopViewController.swift */,
@@ -186,6 +177,19 @@
 				87DB4B80203756AB003622F5 /* Info.plist */,
 			);
 			path = GotchaAppUITests;
+			sourceTree = "<group>";
+		};
+		8869D6A22097766C0032558D /* GotchaAppBaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				8733133A209774BA00B1D46E /* Player.swift */,
+				87331338209774BA00B1D46E /* Poll.swift */,
+				87331339209774BA00B1D46E /* Server.swift */,
+				87331336209774AE00B1D46E /* Image.swift */,
+				873313342097749D00B1D46E /* Game.swift */,
+				873313322097748E00B1D46E /* Errors.swift */,
+			);
+			path = GotchaAppBaseModel;
 			sourceTree = "<group>";
 		};
 		8876D6712095087E00D2C436 /* Camera */ = {
